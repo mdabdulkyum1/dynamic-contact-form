@@ -5,7 +5,8 @@ form.addEventListener("submit", async (e) => {
   var formData = new FormData(form);
 
   try {
-    const response = await fetch("php file hosted link", {
+    const response = await fetch("https://cdn.jsdelivr.net/gh/mdabdulkyum1/dynamic-contact-form@main/index.php
+", {
       method: "POST",
       body: formData,
     });
